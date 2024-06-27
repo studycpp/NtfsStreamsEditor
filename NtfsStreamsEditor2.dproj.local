@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009-04-03 23:27:48.142.pas,D:\study\program\MyProject\NtfsStreamsEditor2\Unit2.pas=D:\study\program\MyProject\NtfsStreamsEditor2\ScanUnit.pas</Transaction>
+    <Transaction>2009-04-03 23:27:48.142.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\Unit2.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\ScanUnit.dfm</Transaction>
+    <Transaction>2009-04-03 23:28:23.435.pas,D:\study\program\MyProject\NtfsStreamsEditor2\ScanUnit.pas=D:\study\program\MyProject\NtfsStreamsEditor2\Scan.pas</Transaction>
+    <Transaction>2009-04-03 23:28:23.435.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\ScanUnit.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\Scan.dfm</Transaction>
+    <Transaction>2009-04-03 23:28:31.509.pas,D:\study\program\MyProject\NtfsStreamsEditor2\MainUnit.pas=D:\study\program\MyProject\NtfsStreamsEditor2\Main.pas</Transaction>
+    <Transaction>2009-04-03 23:28:31.509.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\MainUnit.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\Main.dfm</Transaction>
+    <Transaction>2009-04-03 23:33:58.695.pas,D:\study\program\MyProject\NtfsStreamsEditor2\ChildForm.pas=D:\study\program\MyProject\NtfsStreamsEditor2\Child.pas</Transaction>
+    <Transaction>2009-04-03 23:33:58.695.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\ChildForm.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\Child.dfm</Transaction>
+    <Transaction>2009-04-03 23:52:19.051.pas,D:\study\program\MyProject\NtfsStreamsEditor2\Scan.pas=D:\study\program\MyProject\NtfsStreamsEditor2\ScanUnit.pas</Transaction>
+    <Transaction>2009-04-03 23:52:19.051.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\Scan.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\ScanUnit.dfm</Transaction>
+    <Transaction>2009-04-03 23:52:25.205.pas,D:\study\program\MyProject\NtfsStreamsEditor2\Main.pas=D:\study\program\MyProject\NtfsStreamsEditor2\MainUnit.pas</Transaction>
+    <Transaction>2009-04-03 23:52:25.205.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\Main.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\MainUnit.dfm</Transaction>
+    <Transaction>2009-04-03 23:52:30.523.pas,D:\study\program\MyProject\NtfsStreamsEditor2\Child.pas=D:\study\program\MyProject\NtfsStreamsEditor2\ChildUnit.pas</Transaction>
+    <Transaction>2009-04-03 23:52:30.523.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\Child.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\ChildUnit.dfm</Transaction>
+    <Transaction>2009-04-03 23:55:01.418.pas,D:\study\program\MyProject\NtfsStreamsEditor2\ChildUnit.pas=D:\study\program\MyProject\NtfsStreamsEditor2\ChildFormUnit.pas</Transaction>
+    <Transaction>2009-04-03 23:55:01.418.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\ChildUnit.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\ChildFormUnit.dfm</Transaction>
+    <Transaction>2009-04-03 23:58:27.990.pas,D:\study\program\MyProject\NtfsStreamsEditor2\ChildFormUnit.pas=</Transaction>
+    <Transaction>2009-04-03 23:58:27.990.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\ChildFormUnit.dfm=</Transaction>
+    <Transaction>2009-04-04 01:10:26.996.pas,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.pas=D:\study\program\MyProject\NtfsStreamsEditor2\EditUnit.pas</Transaction>
+    <Transaction>2009-04-04 01:10:26.996.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\EditUnit.dfm</Transaction>
+    <Transaction>2009-04-05 15:52:19.273.pas,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.pas=D:\study\program\MyProject\NtfsStreamsEditor2\RecordUnit.pas</Transaction>
+    <Transaction>2009-04-05 15:52:19.273.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\RecordUnit.dfm</Transaction>
+    <Transaction>2009-04-05 16:00:11.689.pas,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.pas=D:\study\program\MyProject\NtfsStreamsEditor2\aboutUnit.pas</Transaction>
+    <Transaction>2009-04-05 16:00:11.689.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\aboutUnit.dfm</Transaction>
+    <Transaction>2009-04-07 21:50:11.733.pas,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.pas=D:\study\program\MyProject\NtfsStreamsEditor2\ConfirmUnit.pas</Transaction>
+    <Transaction>2009-04-07 21:50:11.733.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\ConfirmUnit.dfm</Transaction>
+    <Transaction>2009-04-08 20:40:45.058.pas,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.pas=D:\study\program\MyProject\NtfsStreamsEditor2\AddUnit.pas</Transaction>
+    <Transaction>2009-04-08 20:40:45.058.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\AddUnit.dfm</Transaction>
+    <Transaction>2009-04-08 22:12:35.249.pas,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.pas=D:\study\program\MyProject\NtfsStreamsEditor2\BAKUnit.pas</Transaction>
+    <Transaction>2009-04-08 22:12:35.249.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\BAKUnit.dfm</Transaction>
+    <Transaction>2009-04-08 22:47:22.375.pas,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.pas=D:\study\program\MyProject\NtfsStreamsEditor2\RestoreUnit.pas</Transaction>
+    <Transaction>2009-04-08 22:47:22.375.dfm,D:\study\program\MyProject\NtfsStreamsEditor2\Unit1.dfm=D:\study\program\MyProject\NtfsStreamsEditor2\RestoreUnit.dfm</Transaction>
+    <Transaction>2009-04-11 17:00:59.874.ico,D:\study\program\MyProject\NtfsStreamsEditor2\images\Nse.ico=</Transaction>
+    <Transaction>2009-04-12 10:02:48.093.ico,D:\study\program\MyProject\NtfsStreamsEditor2\images\bakicon.ico=</Transaction>
+    <Transaction>2009-04-12 11:56:41.111.ico,D:\study\program\MyProject\NtfsStreamsEditor2\images\bakicon2.ico=</Transaction>
+    <Transaction>2009-04-12 11:58:37.374.ico,D:\study\program\MyProject\NtfsStreamsEditor2\images\bakicon.ico=</Transaction>
+    <Transaction>2009-04-12 19:54:22.620.mht,D:\study\program\MyProject\NtfsStreamsEditor2\help\nse2help.mht=</Transaction>
+    <Transaction>2009-04-12 20:43:16.789.mht,D:\study\program\MyProject\NtfsStreamsEditor2\help\nse2help.mht=</Transaction>
+    <Transaction>2009-04-12 20:45:11.844.ico,D:\study\program\MyProject\NtfsStreamsEditor2\images\Nse.ico=</Transaction>
+    <Transaction>2009-04-12 20:45:11.851.ico,D:\study\program\MyProject\NtfsStreamsEditor2\images\bakicon.ico=</Transaction>
+    <Transaction>2009-04-12 20:53:54.269.ico,D:\study\program\MyProject\NtfsStreamsEditor2\images\bakicon.ico=</Transaction>
+  </Transactions>
+</BorlandProject>

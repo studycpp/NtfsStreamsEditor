@@ -1,0 +1,63 @@
+object DEL_Form: TDEL_Form
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = #21024#38500'-'
+  ClientHeight = 425
+  ClientWidth = 594
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object label1: TLabel
+    Left = 16
+    Top = 32
+    Width = 100
+    Height = 13
+    Caption = #26159#21542#21024#38500#20197#19979#25991#20214':'
+  end
+  object Del_LB: TListBox
+    Left = 16
+    Top = 67
+    Width = 550
+    Height = 270
+    Color = clBtnFace
+    DoubleBuffered = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ItemHeight = 16
+    ParentDoubleBuffered = False
+    ParentFont = False
+    ScrollWidth = 800
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 70
+    Top = 380
+    Width = 75
+    Height = 25
+    Caption = #30830#23450
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 432
+    Top = 380
+    Width = 75
+    Height = 25
+    Cancel = True
+    Caption = #21462#28040
+    ModalResult = 2
+    TabOrder = 1
+  end
+end

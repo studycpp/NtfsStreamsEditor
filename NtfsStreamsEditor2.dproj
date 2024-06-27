@@ -1,0 +1,150 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{3FEE12A7-D3B4-4DCA-97C8-D91B5BFE132B}</ProjectGuid>
+			<ProjectVersion>12.0</ProjectVersion>
+			<MainSource>NtfsStreamsEditor2.dpr</MainSource>
+			<Config Condition="'$(Config)'==''">Release</Config>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_UNIT_PLATFORM>false</DCC_UNIT_PLATFORM>
+			<DCC_UsePackage>vcl;rtl;vclx;vclactnband;dbrtl;vcldb;vcldbx;bdertl;dsnap;dsnapcon;TeeUI;TeeDB;Tee;adortl;vclib;ibxpress;IndyCore;IndySystem;IndyProtocols;xmlrtl;inet;intrawebdb_100_120;Intraweb_100_120;VclSmp;vclie;websnap;webdsnap;inetdbbde;inetdbxpress;soaprtl;vclribbon;dbexpress;DbxCommonDriver;DataSnapIndy10ServerTransport;DataSnapProviderClient;DataSnapServer;DbxClientDriver;DBXInterBaseDriver;DBXMySQLDriver;dbxcds;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver</DCC_UsePackage>
+			<DCC_DependencyCheckOutputName>NtfsStreamsEditor2.exe</DCC_DependencyCheckOutputName>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_Platform>x86</DCC_Platform>
+			<DCC_E>false</DCC_E>
+			<DCC_N>false</DCC_N>
+			<DCC_S>false</DCC_S>
+			<DCC_F>false</DCC_F>
+			<DCC_K>false</DCC_K>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="NtfsStreamsEditor2.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="NSEKernel.pas"/>
+			<DCCReference Include="MainUnit.pas">
+				<Form>MainForm</Form>
+			</DCCReference>
+			<DCCReference Include="ScanUnit.pas">
+				<Form>ScanForm</Form>
+			</DCCReference>
+			<DCCReference Include="ChildFormUnit.pas">
+				<Form>ChildForm</Form>
+			</DCCReference>
+			<DCCReference Include="EditUnit.pas">
+				<Form>EditForm</Form>
+			</DCCReference>
+			<DCCReference Include="RecordUnit.pas">
+				<Form>RecordForm</Form>
+			</DCCReference>
+			<DCCReference Include="aboutUnit.pas">
+				<Form>AboutForm</Form>
+			</DCCReference>
+			<DCCReference Include="DElUnit.pas">
+				<Form>DEL_Form</Form>
+			</DCCReference>
+			<DCCReference Include="ExpUnit.pas">
+				<Form>EXP_Form</Form>
+			</DCCReference>
+			<DCCReference Include="AddUnit.pas">
+				<Form>Add_Form</Form>
+			</DCCReference>
+			<DCCReference Include="BAKUnit.pas">
+				<Form>Bak_Form</Form>
+			</DCCReference>
+			<DCCReference Include="RestoreUnit.pas">
+				<Form>Restore_Form</Form>
+			</DCCReference>
+			<DCCReference Include="FastViewUnit.pas">
+				<Form>FastViewForm</Form>
+			</DCCReference>
+			<RcItem Include="images\bakicon.ico">
+				<ResourceType>Icon</ResourceType>
+				<ResourceId>Icon_2</ResourceId>
+			</RcItem>
+			<RcItem Include="images\Nse.ico">
+				<ResourceType>Icon</ResourceType>
+				<ResourceId>Icon_1</ResourceId>
+			</RcItem>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">NtfsStreamsEditor2.dpr</Source>
+					</Source>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">2</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">2</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">2052</VersionInfo>
+						<VersionInfo Name="CodePage">936</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">http://blog.sina.com.cn/advnetsoft</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">NtfsStreamsEditor,tool for Ntfs Streams(ADS) Process</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">2.0.2.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName">NSE</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">XuGanQuan</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks">http://blog.sina.com.cn/advnetsoft</VersionInfoKeys>
+						<VersionInfoKeys Name="OriginalFilename">NtfsStreamsEditor</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">NtfsStreamsEditor</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">2</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

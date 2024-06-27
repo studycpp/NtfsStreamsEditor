@@ -1,0 +1,36 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{3FF2C872-92F3-4A69-9EEE-4FA542288390}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="NtfsStreamsEditor2.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="NtfsStreamsEditor2">
+			<MSBuild Projects="NtfsStreamsEditor2.dproj"/>
+		</Target>
+		<Target Name="NtfsStreamsEditor2:Clean">
+			<MSBuild Targets="Clean" Projects="NtfsStreamsEditor2.dproj"/>
+		</Target>
+		<Target Name="NtfsStreamsEditor2:Make">
+			<MSBuild Targets="Make" Projects="NtfsStreamsEditor2.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="NtfsStreamsEditor2"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="NtfsStreamsEditor2:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="NtfsStreamsEditor2:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>
